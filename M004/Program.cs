@@ -1,51 +1,51 @@
 ﻿#region Schleifen
-//int a = 0;
-//int b = 10;
-//while (a < b) //läuft solange die Bedingung true ist
-//{
-//	Console.WriteLine("while: " + a);
-//	if (a == 5)
-//		break; //Break beendet die Schleife
-//	a++;
-//}
+int a = 0;
+int b = 10;
+while (a < b) //läuft solange die Bedingung true ist
+{
+	Console.WriteLine("while: " + a);
+	if (a == 5)
+		break; //Break beendet die Schleife
+	a++;
+}
 
-//while (true) //Endlosschleife
-//{
-//	//Code
-//}
+while (true) //Endlosschleife
+{
+	//Code
+}
 
-//int c = 0;
-//int d = 10;
-//do //läuft solange die Bedingung true ist UND mindestens einmal
-//{
-//	c++;
-//	if (c == 5)
-//		continue; //springt zum Kopf zurück
-//	Console.WriteLine("do-while: " + c);
-//}
-//while (c < d);
+int c = 0;
+int d = 10;
+do //läuft solange die Bedingung true ist UND mindestens einmal
+{
+	c++;
+	if (c == 5)
+		continue; //springt zum Kopf zurück
+	Console.WriteLine("do-while: " + c);
+}
+while (c < d);
 
-//for (int i = 0; i < 10; i++) //for-Schleife: for(<Variable>;<Bedingung>;<Inkrement>)
-//{
-//	Console.WriteLine("for: " + i);
-//}
+for (int i = 0; i < 10; i++) //for-Schleife: for(<Variable>;<Bedingung>;<Inkrement>)
+{
+	Console.WriteLine("for: " + i);
+}
 
-//for (int i = 9; i > 0; i--) //Schleife die nach unten zählt
-//{
-//	Console.WriteLine("for-Rückwärts: " + i);
-//}
+for (int i = 9; i > 0; i--) //Schleife die nach unten zählt
+{
+	Console.WriteLine("for-Rückwärts: " + i);
+}
 
-//int[] zahlen = Enumerable.Range(0, 10).ToArray();
-//for (int i = 0; i < zahlen.Length; i++) //Array iterieren
-//{
-//	int current = zahlen[i];
-//	Console.WriteLine(current);
-//}
+int[] zahlen = Enumerable.Range(0, 10).ToArray();
+for (int i = 0; i < zahlen.Length; i++) //Array iterieren
+{
+	int current = zahlen[i];
+	Console.WriteLine(current);
+}
 
-//foreach (int zahl in zahlen) //Geht das Array durch und kann nicht daneben greifen (sicherer)
-//{
-//	Console.WriteLine(zahl);
-//}
+foreach (int zahl in zahlen) //Geht das Array durch und kann nicht daneben greifen (sicherer)
+{
+	Console.WriteLine(zahl);
+}
 #endregion
 
 #region Enums
