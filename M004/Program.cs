@@ -112,7 +112,7 @@ switch (tag) //Boolsche Logik
 
 enum Wochentag
 {
-	Montag,
+	Montag = 1,
 	Dienstag,
 	Mittwoch,
 	Donnerstag,
