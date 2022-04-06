@@ -66,22 +66,22 @@ Console.WriteLine(pfad);
 #endregion
 
 #region Eingabe
-//string eingabe = Console.ReadLine(); //Zeileneingabe bis Enter
-//Console.WriteLine(eingabe);
+string eingabe = Console.ReadLine(); //Zeileneingabe bis Enter
+Console.WriteLine(eingabe);
 
-//char eingabeKey = Console.ReadKey().KeyChar; //Zeicheneingabe ohne Enter
-//Console.WriteLine(eingabeKey);
+char eingabeKey = Console.ReadKey().KeyChar; //Zeicheneingabe ohne Enter
+Console.WriteLine(eingabeKey);
 
-//string zahlEingabe = Console.ReadLine();
-//int parsedZahl = int.Parse(zahlEingabe); //Parse: Konvertierung von String zu Int
-//Console.WriteLine(parsedZahl);
+string zahlEingabe = Console.ReadLine();
+int parsedZahl = int.Parse(zahlEingabe); //Parse: Konvertierung von String zu Int
+Console.WriteLine(parsedZahl);
 
-//string doubleEingabe = Console.ReadLine(); //Eingabe in Deutschland mit , als Komma
-//double parsedDouble = double.Parse(doubleEingabe); //Außerhalb mit .
-//Console.WriteLine(parsedDouble);
+string doubleEingabe = Console.ReadLine(); //Eingabe in Deutschland mit , als Komma
+double parsedDouble = double.Parse(doubleEingabe); //Außerhalb mit .
+Console.WriteLine(parsedDouble);
 
-//bool boolParse = bool.Parse(Console.ReadLine());
-//Console.WriteLine(boolParse);
+bool boolParse = bool.Parse(Console.ReadLine());
+Console.WriteLine(boolParse);
 #endregion
 
 #region Typecasting
