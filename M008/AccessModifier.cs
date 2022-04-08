@@ -2,10 +2,6 @@
 {
 	public class AccessModifier
 	{
-		static void Main(string[] args)
-		{
-
-		}
 	}
 
 	class Mensch //Klasse ohne Modifier ist Internal
