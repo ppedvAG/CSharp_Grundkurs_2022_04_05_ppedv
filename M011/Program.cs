@@ -1,6 +1,6 @@
 ﻿public class Program
 {
-	static void Main(string[] args)
+	static void Main2(string[] args)
 	{
 		List<string> staedte = new List<string>(); //Erstellung von Liste mit Typ
 		staedte.Add("Hamburg"); //Elemente hinzufügen

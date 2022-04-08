@@ -66,7 +66,7 @@ public class Hund : Lebewesen
 	}
 
 	public override void PrintStatus()
-{
+	{
 		Console.WriteLine($"Hund: {Name}");
 	}
 }
