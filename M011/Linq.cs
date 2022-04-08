@@ -100,6 +100,9 @@ public class Linq
 
 		//Überspringe die ersten 5 Fahrzeuge und nimm dann 5 Fahrzeuge
 		List<Fahrzeug> skipTake = fahrzeuge.Skip(5).Take(5).ToList();
+
+		fahrzeuge.Shuffle();
+		Console.WriteLine(83256289.Quersumme());
 	}
 
 	public class Fahrzeug
